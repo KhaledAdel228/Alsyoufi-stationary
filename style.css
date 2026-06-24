@@ -144,10 +144,10 @@ body {
 
 .experience-badge {
   position: absolute;
-  top: -10px;
-  left: 10px;
-  width: 140px;
-  height: 140px;
+  top: -25px;
+  left: -20px;
+  width: 95px;
+  height: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,29 +174,29 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 2px;
   transform: rotate(-10deg);
 }
 
 .badge-top {
   display: flex;
   align-items: baseline;
-  gap: 5px;
-  margin-bottom: -5px;
+  gap: 3px;
+  margin-bottom: -3px;
 }
 
 .badge-top .year {
-  font-size: 1.1rem;
+  font-size: 0.75rem;
   position: relative;
-  top: -8px;
+  top: -5px;
 }
 
 .badge-top .num {
-  font-size: 3.2rem;
+  font-size: 2.1rem;
 }
 
 .badge-content .txt {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 @keyframes floatBadge {
@@ -384,6 +384,23 @@ body {
   .card-icon { width: 50px; height: 50px; margin-left: 15px; }
   .card-icon svg { width: 24px; height: 24px; }
   .card { padding: 15px; }
+  
+  .experience-badge {
+    width: 85px;
+    height: 85px;
+    top: -25px;
+    left: -10px;
+  }
+  .badge-top .num {
+    font-size: 2rem;
+  }
+  .badge-top .year {
+    font-size: 0.75rem;
+    top: -4px;
+  }
+  .badge-content .txt {
+    font-size: 1.1rem;
+  }
 }
 
 /* Floating Music Toggle Button */
